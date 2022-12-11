@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./all.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <form action="" class="details-form">
+        <div class="form-controls">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="text" name="name" id="name" placeholder="Name" />
+          <input type="number" name="pin" id="pin" placeholder="PIN" />
+          <button class="submit" type="submit">Submit</button>
+        </div>
+        <div class="form-alert"></div>
+      </form>
+
+      <section class="content">
+        <div class="msg">Loading...</div>
+        <div class="users-list"></div>
+      </section>
+    </main>
+
+    <!-- AXIOS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./get-users.js"></script>
+    <script src="./create-update-users.js"></script>
+    <script src="./delete-single-user.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
