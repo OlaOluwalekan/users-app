@@ -78,6 +78,11 @@
   align-items: center;
 }
 
+.users-list h3 {
+  text-align: center;
+  color: blue;
+}
+
 .user-div {
   width: 100%;
   background-color: bisque;
